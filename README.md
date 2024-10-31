@@ -36,4 +36,27 @@ Alur Algoritma Latihan2 :
  8. Selesai:
     Program selesai.
 
-Aur Algoritma Latihan3
+Alur Algoritma Latihan3 :
+ 1. Mulai Program:
+    Inisialisasi saldo awal sebesar Rp 1.000.000.
+ 2. Tampilkan Menu:
+    - Tampilkan menu pilihan kepada pengguna:
+      > Cek Saldo
+      > Tarik Tunai
+      > Keluar
+ 3. Meminta Input Pengguna:
+    Minta pengguna memilih opsi dari menu.
+ 4. Proses Pilihan Pengguna:
+    - Jika Pilihan 1 (Cek Saldo):
+      > Tampilkan saldo saat ini.
+    - Jika Pilihan 2 (Tarik Tunai):
+      > Minta pengguna memasukkan jumlah uang yang ingin ditarik.
+      > Periksa apakah jumlah yang diminta lebih besar dari saldo.
+        > Jika ya, tampilkan pesan “Saldo tidak mencukupi.”
+        > Jika tidak, kurangi saldo dengan jumlah yang diminta dan tampilkan saldo saat ini.
+    - Jika Pilihan 3 (Keluar):
+      > Tampilkan pesan “Terima kasih telah menggunakan ATM kami.” dan akhiri program.
+    - Jika Pilihan Tidak Valid:
+      > Tampilkan pesan “Pilihan tidak valid. Silakan coba lagi.”
+ 5. Ulangi Proses:
+    - Kembali ke langkah 2 hingga pengguna memilih untuk keluar.
